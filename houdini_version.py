@@ -5,7 +5,7 @@ import hou
 from model.emitter import Emitter
 from model.vec3 import Vec3
 
-OUTPUT_DIR = "/transfer/Particle"
+OUTPUT_DIR = "/transfer/ParticleHoudini"
 
 
 def write_particles(emitter, file_name):

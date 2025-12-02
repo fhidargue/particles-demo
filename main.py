@@ -2,9 +2,7 @@
 
 
 from pathlib import Path
-
 from ncca.ngl.vec3 import Vec3
-
 from model.emitter import Emitter
 
 OUTPUT_DIR = Path("~/Documents/BU/particles").expanduser()

@@ -3,11 +3,12 @@
 
 from pathlib import Path
 
-from model.emitter import Emitter
-from model.vec3 import Vec3
+from ncca.ngl.vec3 import Vec3
 
-OUTPUT_DIR = "/transfer/Particle"
-Path(OUTPUT_DIR).mkdir(parents=True, exist_ok=True)
+from model.emitter import Emitter
+
+OUTPUT_DIR = Path("~/Documents/BU/particles").expanduser()
+OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 emitter = Emitter(Vec3(0, 0, 0), 1000)
 

@@ -1,7 +1,7 @@
 import pytest
 
 from model.particle import Particle
-from model.vec3 import Vec3
+from ncca.ngl.vec3 import Vec3
 
 
 def test_particle_creation():

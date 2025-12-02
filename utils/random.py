@@ -1,7 +1,7 @@
 import math
 import random
 
-from model.vec3 import Vec3
+from ncca.ngl.vec3 import Vec3
 
 
 class Random:

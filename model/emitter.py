@@ -1,7 +1,7 @@
 import random
 
 from model.particle import Particle
-from model.vec3 import Vec3
+from ncca.ngl.vec3 import Vec3
 from utils.random import Random
 
 GRAVITY = Vec3(0, -9.81, 0)

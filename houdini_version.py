@@ -1,11 +1,11 @@
 #!/opt/hfs20.5.332/bin/hython
 
 import hou
+from ncca.ngl.vec3 import Vec3
 
 from model.emitter import Emitter
-from model.vec3 import Vec3
 
-OUTPUT_DIR = "/transfer/ParticleHoudini"
+OUTPUT_DIR = "~/Documents/BU/hou_particles"
 
 
 def write_particles(emitter, file_name):

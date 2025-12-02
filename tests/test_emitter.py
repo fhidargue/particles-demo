@@ -1,7 +1,5 @@
-import pytest
-
 from model.emitter import Emitter
-from model.vec3 import Vec3
+from ncca.ngl.vec3 import Vec3
 
 
 def test_emitter_creation():

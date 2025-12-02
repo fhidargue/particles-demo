@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
 
-from model.vec3 import Vec3
+from ncca.ngl.vec3 import Vec3
 
 
 @dataclass
